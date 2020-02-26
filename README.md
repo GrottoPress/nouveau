@@ -66,9 +66,6 @@ Install via composer:
 
 ```php
 <?php
-declare (strict_types = 1);
-
-namespace Vendor;
 
 use GrottoPress\Nouveau\NewTrait;
 
@@ -96,7 +93,7 @@ class Greeter
 1. Instantiate class
 
 ```php
-$greeter = Vendor\Greeter::new('John'); // Same as `new Vendor\Greeter('John');`
+$greeter = Greeter::new('John'); // Same as `new Greeter('John');`
 echo $greeter->sayHello(); // => Hello, John :-)
 ```
 
