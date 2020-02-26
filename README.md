@@ -2,7 +2,7 @@
 
 ## Description
 
-*Nouveau* adds a `new()` static method to your class for constructing an instance of the class, as an alternative to using the `new` keyword.
+**Nouveau** adds a `new()` static method to your class for constructing an instance of the class, as an alternative to using the `new` keyword.
 
 In [ruby](https://ruby-lang.org) and [crystal](https://crystal-lang.org), you instantiate a class by doing:
 
@@ -26,7 +26,7 @@ impl MyStruct {
 MyStruct::new();
 ```
 
-*Nouveau* brings the same concept to PHP, allowing to intantiate a class thus:
+**Nouveau** brings the same concept to PHP, allowing to intantiate a class thus:
 
 ```php
 MyClass::new(..$args);
