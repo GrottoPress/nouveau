@@ -16,9 +16,9 @@
   ],
   "keywords": [ "OOP", "new", "constructor" ],
   "support": {
-    "issues": "https://github.com/GrottoPress/getter/issues",
-    "wiki": "https://github.com/GrottoPress/getter/wiki",
-    "source": "https://github.com/GrottoPress/getter/"
+    "issues": "https://github.com/GrottoPress/nouveau/issues",
+    "wiki": "https://github.com/GrottoPress/nouveau/wiki",
+    "source": "https://github.com/GrottoPress/nouveau/"
   },
   "require": {
     "php": ">=7.0"
