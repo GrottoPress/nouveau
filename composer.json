@@ -1,0 +1,46 @@
+{
+  "name": "grottopress/nouveau",
+  "description": "Instantiate a class by calling `::new()`, as an alternative to the `new` keyword.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "GrottoPress.com",
+      "email": "info@grottopress.com",
+      "homepage": "https://www.grottopress.com"
+    },
+    {
+      "name": "N Atta Kusi Adusei",
+      "homepage": "https://twitter.com/akadusei",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [ "OOP", "new", "constructor" ],
+  "support": {
+    "issues": "https://github.com/GrottoPress/getter/issues",
+    "wiki": "https://github.com/GrottoPress/getter/wiki",
+    "source": "https://github.com/GrottoPress/getter/"
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.3"
+  },
+  "autoload": {
+    "psr-4": { "GrottoPress\\Nouveau\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "GrottoPress\\Nouveau\\": "tests/unit/" }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "chmod +x ./bin/*"
+    ],
+    "test": [
+      "./vendor/bin/codecept run unit"
+    ],
+    "release": [
+      "./bin/release"
+    ]
+  }
+}
